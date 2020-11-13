@@ -13,11 +13,11 @@ public class PalindromicNumberFinder {
 
     // this method should find the next palindromic number
     public int searchForPalindromicNum(int num){
-      num = num + 1;
-      while(testPalindromicNum(num) == false){
-        num++;
+      int temp = num + ;1
+      while(testPalindromicNum(temp) == false){
+        temp++;
       }
-      return num;
+      return temp-num;
       
 
     }
